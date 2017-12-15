@@ -11,8 +11,8 @@ def setSublist(l, s, sl):
 		newList[(s + i)%len(newList)] = sl[i]
 	return newList
 
-def main():
-	lengths = [ord(c) for c in getLengths('10_0.txt')]
+def main(string):
+	lengths = [ord(c) for c in string]
 	lengths.extend([17,31,73,47,23])
 	input = [i for i in xrange(256)]
 	skip = 0
@@ -27,12 +27,12 @@ def main():
 			i %= len(input)
 			skip += 1
 	solution = input
-	print solution
+	#print solution
 	denseHash = []
 	for i in xrange(16):
 		denseHash.append(reduce(lambda x,y: x^y, solution[16*i:16*i+16]))
 
-	print ''.join([hex(h)[2:].zfill(2) for h in denseHash])
+	return ''.join([hex(h)[2:].zfill(2) for h in denseHash])
 
 if __name__ == '__main__':
 	main()

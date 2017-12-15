@@ -26,6 +26,7 @@ def main():
 			groups.append([programs[0]])
 			programs.pop(0)
 
+		# no time to think, but you need some more loops to get all. 
 		for i in range(20):
 			for p in programs:
 				for c in groups[-1]:
