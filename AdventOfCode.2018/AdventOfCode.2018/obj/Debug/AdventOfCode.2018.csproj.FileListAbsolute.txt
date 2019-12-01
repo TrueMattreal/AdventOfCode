@@ -1,0 +1,7 @@
+D:\Projects\AdventOfCode\AdventOfCode.2018\AdventOfCode.2018\obj\Debug\AdventOfCode.2018.csprojAssemblyReference.cache
+D:\Projects\AdventOfCode\AdventOfCode.2018\AdventOfCode.2018\obj\Debug\AdventOfCode.2018.csproj.CoreCompileInputs.cache
+D:\Projects\AdventOfCode\AdventOfCode.2018\AdventOfCode.2018\bin\Debug\AdventOfCode.2018.exe.config
+D:\Projects\AdventOfCode\AdventOfCode.2018\AdventOfCode.2018\bin\Debug\AdventOfCode.2018.exe
+D:\Projects\AdventOfCode\AdventOfCode.2018\AdventOfCode.2018\bin\Debug\AdventOfCode.2018.pdb
+D:\Projects\AdventOfCode\AdventOfCode.2018\AdventOfCode.2018\obj\Debug\AdventOfCode.2018.exe
+D:\Projects\AdventOfCode\AdventOfCode.2018\AdventOfCode.2018\obj\Debug\AdventOfCode.2018.pdb

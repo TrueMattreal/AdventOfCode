@@ -1,12 +1,19 @@
-def getLines(path):
+def getLine(path):
 	with open(path, 'r') as f:
-		return [line.strip() for line in f]
+		for line in f:
+			return line.strip()
 	
 def main():
-	#lines = [l.split(' ') for l in getLines('05_0'.txt)]
-	lines = getLines('05_0.txt')
-
-	print(lines)
+	line = getLine('D:\\Projects\\AdventOfCode\\2018\\05_0.txt')
+	changed = True
+	m = 50000
+	for c  in 'abcdefghijklmnopqrstuvwxyz':
+		tempM = len(line.replace(c, '').replace(c.upper(), ''))
+		if tempM < m:
+			m = tempM
+	print(m)
 
 if __name__ == '__main__':
 	main()
+
+#47962

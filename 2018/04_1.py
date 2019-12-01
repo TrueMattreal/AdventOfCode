@@ -6,6 +6,9 @@ def main():
 	#lines = [l.split(' ') for l in getLines('04_0'.txt)]
 	lines = getLines('04_0.txt')
 
+	for l in lines:
+		
+
 	print(lines)
 
 if __name__ == '__main__':
