@@ -3,7 +3,7 @@ sourceFileContent = """def getLines(path):
 		return [line.strip() for line in f]
 	
 def main():
-	#lines = [l.split(' ') for l in getLines('{0}_0'.txt)]
+	#lines = [l.split(' ') for l in getLines('{0}_0.txt')]
 	lines = getLines('{0}_0.txt')
 
 	print(lines)
